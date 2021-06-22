@@ -1,6 +1,10 @@
 body{
     background-color: #fffbf7;
 }
+main {
+    margin-top: 285px;
+    text-align: center;
+  }
 .header {
     margin: 40px 20px 0 20px;
     font-size: 0;
@@ -24,9 +28,16 @@ button{
 
 li{
     display: inline;
-    margin: 0px 25px;
+    margin: 0px 15px;
 }
 
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .header > *{
     display: inline-block;
     font-size: 16px;
@@ -50,7 +61,7 @@ li{
     width: 15%;
     text-align: right;
     font-size: 14px;
-    margin: 0px 10px;
+    
 
 }
 
@@ -63,4 +74,43 @@ li{
     border: none;
     padding: 12px 14px;
     background-color: #67b54b;
+}
+.publicidad{
+    margin-left: 20px;
+}
+.publicidad h3{
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video img{
+    width: 120px;
+    margin-top: 10px;
+}
+.publicidad > p{
+    font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px
+}
+
+.publicidad > form{
+    display: flex;
+}
+
+.publicidad > form p{
+    color: #025157;
+  margin-right: 18px;
 }
