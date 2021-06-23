@@ -114,3 +114,103 @@ li{
     color: #025157;
   margin-right: 18px;
 }
+.promo-dos{
+    background-color: #a1d683;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 896px;
+}
+.uno{
+    width: 808px;
+    height: 494px;
+}
+.uno img{
+    width: 500px;
+    height:140px;
+}
+.uno button{
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+}
+.uno p{
+    color: black;
+}
+ .uno h2{
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+ }
+
+ .dos{
+     background-color: white;
+     height: 660px;
+     width: 352px;
+     border-radius: 20px;
+     position: relative;
+     align-items: center;
+     color: #828282;
+ }
+ .dos h4{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+ }
+ .dos h3{
+     color: black;
+     text-align: justify;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto 20px;
+}
+.dos button{
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 48px;
+    font-weight: 600;
+    width: 302px;
+    margin: 25px;
+}
+
+.history{
+    width: 352px;
+    height: 268px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    bottom: 360px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    width: 75px;
+    height: 28px;
+}
+.icon{
+    height: 26px;
+    width: 26px;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
