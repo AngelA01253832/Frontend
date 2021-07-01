@@ -53,12 +53,12 @@ li{
     width: 15%;
 }
 
-.navbar{
+/*.navbar{
     width: 70%;
     text-align: center;
     color: green;
     
-}
+}*/
 
 
 .actions{
@@ -368,9 +368,9 @@ li{
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-    .navbar, .actions{
+    /*.navbar, .actions{
         display: none;
-    }
+    }*/
     main {
         margin-top: 130px;
       }
