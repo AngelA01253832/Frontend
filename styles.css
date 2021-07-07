@@ -300,6 +300,7 @@ li{
 }
 .promo-tres{
     text-align: center;
+    margin-top: 50px;
 }
 .promo-tres button{
     font-size: 14px;
@@ -366,6 +367,70 @@ li{
     margin-left: -270px;
 }
 
+.credit input{
+    
+    width: 250px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.publicidad input{
+    margin-left: 50px;
+    width: 250px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.credit button{
+    border: none;
+    width: 133.55px;
+    height: 55px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: -5px;
+    margin-top: 50px;
+}
+.publicidad button{
+    border: none;
+    width: 133.55px;
+    height: 55px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: -5px;
+}
+
+.publish{
+    margin-top: 50px;
+    
+}
+.publish input{
+    border-radius: 8px;
+}
+
+#navbarSupportedContent > form > button{
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+#navbarSupportedContent > form > a{
+    color: #67b54b;
+    margin-right: 10px;
+}
+#navbarSupportedContent > form > a:hover{
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+}
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
     /*.navbar, .actions{
